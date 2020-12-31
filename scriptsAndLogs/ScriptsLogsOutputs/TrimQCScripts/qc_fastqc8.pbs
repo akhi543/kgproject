@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+#
+#PBS -l walltime=10:00:00
+#PBS -l nodes=1:ppn=28
+#PBS -N fastqc_trim8
+#PBS -j oe
+#PBS -A PAS0536
+#PBS -m abe
+
+cd $PBS_O_WORKDIR
+module load fastqc
+fastqc TrimmomaticTrims/Trim8/SRR8293759_paired1_t8
+fastqc TrimmomaticTrims/Trim8/SRR8293759_paired2_t8
+fastqc TrimmomaticTrims/Trim8/SRR8451905_paired1_t8
+fastqc TrimmomaticTrims/Trim8/SRR8451905_paired2_t8

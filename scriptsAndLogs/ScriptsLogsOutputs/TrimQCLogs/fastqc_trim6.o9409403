@@ -1,0 +1,18 @@
+Analysis complete for SRR8293759_paired1_t6
+Analysis complete for SRR8293759_paired2_t6
+Analysis complete for SRR8451905_paired1_t6
+Analysis complete for SRR8451905_paired2_t6
+
+-----------------------
+Resources requested:
+nodes=1:ppn=28
+-----------------------
+Resources used:
+cput=01:06:50
+walltime=01:06:33
+mem=0.266GB
+vmem=3.351GB
+-----------------------
+Resource units charged (estimate):
+3.105 RUs
+-----------------------

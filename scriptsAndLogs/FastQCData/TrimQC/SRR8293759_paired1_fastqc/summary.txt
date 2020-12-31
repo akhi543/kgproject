@@ -1,0 +1,11 @@
+PASS	Basic Statistics	SRR8293759_paired1
+PASS	Per base sequence quality	SRR8293759_paired1
+PASS	Per sequence quality scores	SRR8293759_paired1
+FAIL	Per base sequence content	SRR8293759_paired1
+PASS	Per sequence GC content	SRR8293759_paired1
+PASS	Per base N content	SRR8293759_paired1
+WARN	Sequence Length Distribution	SRR8293759_paired1
+PASS	Sequence Duplication Levels	SRR8293759_paired1
+PASS	Overrepresented sequences	SRR8293759_paired1
+WARN	Adapter Content	SRR8293759_paired1
+FAIL	Kmer Content	SRR8293759_paired1

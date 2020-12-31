@@ -1,0 +1,46 @@
+TrimmomaticPE: Started with arguments:
+ SRR8293759.1_1.fastq.gz SRR8293759.1_2.fastq.gz SRR8293759_paired1 SRR8293759_unpaired1 SRR8293759_paired2 SRR8293759_unpaired2 ILLUMINACLIP:adapters.fasta:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+java.io.FileNotFoundException: /fs/project/PAS0536/swathi/adapters.fasta (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticPE.run(TrimmomaticPE.java:536)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:80)
+Quality encoding detected as phred33
+Input Read Pairs: 117371326 Both Surviving: 110324688 (94.00%) Forward Only Surviving: 6457982 (5.50%) Reverse Only Surviving: 366215 (0.31%) Dropped: 222441 (0.19%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ SRR8451905.1_1.fastq.gz SRR8451905.1_2.fastq.gz SRR8451905_paired1 SRR8451905_unpaired1 SRR8451905_paired2 SRR8451905_unpaired2 ILLUMINACLIP:adapters.fasta:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+java.io.FileNotFoundException: /fs/project/PAS0536/swathi/adapters.fasta (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.usadellab.trimmomatic.fasta.FastaParser.parse(FastaParser.java:54)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.loadSequences(IlluminaClippingTrimmer.java:110)
+	at org.usadellab.trimmomatic.trim.IlluminaClippingTrimmer.makeIlluminaClippingTrimmer(IlluminaClippingTrimmer.java:71)
+	at org.usadellab.trimmomatic.trim.TrimmerFactory.makeTrimmer(TrimmerFactory.java:32)
+	at org.usadellab.trimmomatic.Trimmomatic.createTrimmers(Trimmomatic.java:59)
+	at org.usadellab.trimmomatic.TrimmomaticPE.run(TrimmomaticPE.java:536)
+	at org.usadellab.trimmomatic.Trimmomatic.main(Trimmomatic.java:80)
+Quality encoding detected as phred33
+Input Read Pairs: 186970325 Both Surviving: 176608717 (94.46%) Forward Only Surviving: 9483198 (5.07%) Reverse Only Surviving: 512724 (0.27%) Dropped: 365686 (0.20%)
+TrimmomaticPE: Completed successfully
+
+-----------------------
+Resources requested:
+nodes=1:ppn=28
+-----------------------
+Resources used:
+cput=00:54:12
+walltime=00:52:22
+mem=0.686GB
+vmem=35.993GB
+-----------------------
+Resource units charged (estimate):
+2.443 RUs
+-----------------------

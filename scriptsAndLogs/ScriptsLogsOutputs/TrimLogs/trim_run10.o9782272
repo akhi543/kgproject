@@ -1,0 +1,41 @@
+TrimmomaticPE: Started with arguments:
+ SRR8451905.1_1.fastq.gz SRR8451905.1_2.fastq.gz SRR8451905_paired1_t10 SRR8451905_unpaired1_t10 SRR8451905_paired2_t10 SRR8451905_unpaired2_t10 ILLUMINACLIP:adapters.fasta:5:30:10 MAXINFO:36:0.2 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Medium Clipping Sequence: 'CTGTCTCTTATACACATCT'
+Using Long Clipping Sequence: 'ATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Medium Clipping Sequence: 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 0 prefix pairs, 20 forward/reverse sequences, 1 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 186970325 Both Surviving: 176445106 (94.37%) Forward Only Surviving: 9540439 (5.10%) Reverse Only Surviving: 513614 (0.27%) Dropped: 471166 (0.25%)
+TrimmomaticPE: Completed successfully
+
+-----------------------
+Resources requested:
+nodes=1:ppn=28
+-----------------------
+Resources used:
+cput=05:24:51
+walltime=05:10:31
+mem=0.632GB
+vmem=35.993GB
+-----------------------
+Resource units charged (estimate):
+14.490 RUs
+-----------------------

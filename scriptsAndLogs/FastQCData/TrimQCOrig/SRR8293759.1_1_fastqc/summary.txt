@@ -1,0 +1,11 @@
+PASS	Basic Statistics	SRR8293759.1_1.fastq.gz
+PASS	Per base sequence quality	SRR8293759.1_1.fastq.gz
+PASS	Per sequence quality scores	SRR8293759.1_1.fastq.gz
+FAIL	Per base sequence content	SRR8293759.1_1.fastq.gz
+PASS	Per sequence GC content	SRR8293759.1_1.fastq.gz
+PASS	Per base N content	SRR8293759.1_1.fastq.gz
+PASS	Sequence Length Distribution	SRR8293759.1_1.fastq.gz
+PASS	Sequence Duplication Levels	SRR8293759.1_1.fastq.gz
+PASS	Overrepresented sequences	SRR8293759.1_1.fastq.gz
+WARN	Adapter Content	SRR8293759.1_1.fastq.gz
+FAIL	Kmer Content	SRR8293759.1_1.fastq.gz

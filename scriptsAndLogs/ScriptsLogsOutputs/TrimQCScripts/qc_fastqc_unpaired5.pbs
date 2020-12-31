@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+#
+#PBS -l walltime=10:00:00
+#PBS -l nodes=1:ppn=28
+#PBS -N fastqc_trim_unpaired_t5
+#PBS -j oe
+#PBS -A PAS0536
+#PBS -m abe
+
+cd $PBS_O_WORKDIR
+module load fastqc
+fastqc SRR8451905_unpaired1_t5
+fastqc SRR8451905_unpaired2_t5
+fastqc SRR8293759_unpaired1_t5
+fastqc SRR8293759_unpaired2_t5

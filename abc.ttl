@@ -1,0 +1,28 @@
+PREFIX : <http://example.org/>
+
+
+## RawQCScriptFile triples
+:RawQCScript_qc_fastqc_orig.pbs rdf:type :RawQCScriptFile .
+:RawQCScript_qc_fastqc_orig.pbs :walltime "10:00:00" .
+:RawQCScript_qc_fastqc_orig.pbs :nodes "1" .
+:RawQCScript_qc_fastqc_orig.pbs :ppn "28" .
+:RawQCScript_qc_fastqc_orig.pbs :fastqcParam :SRR8293759.1_1.fastq.gz .
+:RawQCScript_qc_fastqc_orig.pbs :fastqcParam :SRR8293759.1_2.fastq.gz .
+:RawQCScript_qc_fastqc_orig.pbs :fastqcParam :SRR8451905.1_1.fastq.gz .
+:RawQCScript_qc_fastqc_orig.pbs :fastqcParam :SRR8451905.1_2.fastq.gz .
+
+
+## RawQCLogFile triples
+:RawQCLog_fastqc_raw.o9401591 rdf:type :RawQCLogFile .
+:SRR8293759.1_1.fastq.gz :AnalysisResult :complete .
+:SRR8293759.1_2.fastq.gz :AnalysisResult :complete .
+:SRR8451905.1_1.fastq.gz :AnalysisResult :complete .
+:SRR8451905.1_2.fastq.gz :AnalysisResult :complete .
+:RawQCLog_fastqc_raw.o9401591 :nodes "1" .
+:RawQCLog_fastqc_raw.o9401591 :ppn "28" .
+:RawQCLog_fastqc_raw.o9401591 :cput "01:31:33" .
+:RawQCLog_fastqc_raw.o9401591 :walltime "01:31:17" .
+:RawQCLog_fastqc_raw.o9401591 :mem "0.275GB" .
+:RawQCLog_fastqc_raw.o9401591 :vmem "3.356GB" .
+
+

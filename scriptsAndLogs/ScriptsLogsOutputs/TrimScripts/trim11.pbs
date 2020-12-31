@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+#
+#PBS -l walltime=10:00:00
+#PBS -l nodes=4:ppn=28
+#PBS -N trim_run11
+#PBS -j oe
+#PBS -A PAS0536
+#PBS -m abe
+
+cd $PBS_O_WORKDIR
+module load java
+module load trimmomatic
+
+java -jar /usr/local/trimmomatic/Trimmomatic-0.36/trimmomatic-0.36.jar PE SRR8293759.1_1.fastq.gz SRR8293759.1_2.fastq.gz SRR8293759_paired1_t11 SRR8293759_unpaired1_t11 SRR8293759_paired2_t11 SRR8293759_unpaired2_t11 ILLUMINACLIP:adapters.fasta:5:30:10 MAXINFO:100:0.2 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+java -jar /usr/local/trimmomatic/Trimmomatic-0.36/trimmomatic-0.36.jar PE SRR8451905.1_1.fastq.gz SRR8451905.1_2.fastq.gz SRR8451905_paired1_t11 SRR8451905_unpaired1_t11 SRR8451905_paired2_t11 SRR8451905_unpaired2_t11 ILLUMINACLIP:adapters.fasta:5:30:10 MAXINFO:100:0.2 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
