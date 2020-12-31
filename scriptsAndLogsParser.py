@@ -1,6 +1,6 @@
 import sys, re, os
 
-ttlFile = open('abc.ttl', 'w')
+ttlFile = open('scriptsLogs.ttl', 'w')
 
 def rawQCScriptParser(file):
     filepath = file
@@ -124,13 +124,34 @@ def trimQCLogParser(file):
     ttlFile.write("\n")
 
 def trimLogParser(file):
-    pass
+    ttlFile.write("## TrimLogFile triples\n")
+    ttlFile.write(":{} rdf:type :TrimLogFile .\n".format(file))
+    with open(file, "r") as f:
+        for line in f:
+            walltime = re.findall('walltime=(.*)', line)
+            if len(walltime) > 0:
+                ttlFile.write(":{} :walltime \"{}\" .\n".format(file, walltime[0]))
+            nodes = re.findall('nodes=(\d+)', line)
+            if len(nodes) > 0:
+                ttlFile.write(":{} :nodes \"{}\" .\n".format(file, nodes[0]))
+            ppn = re.findall('ppn=(\d+)', line)
+            if len(ppn) > 0:
+                ttlFile.write(":{} :ppn \"{}\" .\n".format(file, ppn[0]))
+            cput = re.findall('cput=(.*)', line)
+            if len(cput) > 0:
+                ttlFile.write(":{} :cput \"{}\" .\n".format(file, cput[0]))
+            mem = re.findall('^mem=(.*)', line)
+            if len(mem) > 0:
+                ttlFile.write(":{} :mem \"{}\" .\n".format(file, mem[0]))
+            vmem = re.findall('vmem=(.*)', line)
+            if len(vmem) > 0:
+                ttlFile.write(":{} :vmem \"{}\" .\n".format(file, vmem[0]))
+    ttlFile.write("\n")
+    ttlFile.write("\n")
         
 
 
 def main():
-
-    # print(os.getcwd())
 
     scriptsAndLogsDir = 'scriptsAndLogs/ScriptsLogsOutputs'
     os.chdir(os.path.join(os.getcwd(), scriptsAndLogsDir))
@@ -159,17 +180,17 @@ def main():
     for x in rawQCLogs:
         rawQCLogParser(os.path.join(rawQCLogDir, x))
 
-    # for x in trimQCScripts:
-    #     trimQCScriptParser(os.path.join(trimQCScriptDir, x))
+    for x in trimQCScripts:
+        trimQCScriptParser(os.path.join(trimQCScriptDir, x))
 
-    # for x in trimQCLogs:
-    #     trimQCLogParser(os.path.join(trimQCLogDir, x))
+    for x in trimQCLogs:
+        trimQCLogParser(os.path.join(trimQCLogDir, x))
 
-    # for x in trimScripts:
-    #     trimScriptParser(os.path.join(trimScriptDir, x))
+    for x in trimScripts:
+        trimScriptParser(os.path.join(trimScriptDir, x))
 
-    # for x in trimLogs:
-    #     trimLogParser(os.path.join(trimLogDir, x))
+    for x in trimLogs:
+        trimLogParser(os.path.join(trimLogDir, x))
 
 
 

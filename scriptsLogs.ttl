@@ -1,0 +1,816 @@
+PREFIX : <http://example.org/>
+
+
+## RawQCScriptFile triples
+:RawQCScript_qc_fastqc_orig.pbs rdf:type :RawQCScriptFile .
+:RawQCScript_qc_fastqc_orig.pbs :walltime "10:00:00" .
+:RawQCScript_qc_fastqc_orig.pbs :nodes "1" .
+:RawQCScript_qc_fastqc_orig.pbs :ppn "28" .
+:RawQCScript_qc_fastqc_orig.pbs :fastqcParam :SRR8293759.1_1.fastq.gz .
+:RawQCScript_qc_fastqc_orig.pbs :fastqcParam :SRR8293759.1_2.fastq.gz .
+:RawQCScript_qc_fastqc_orig.pbs :fastqcParam :SRR8451905.1_1.fastq.gz .
+:RawQCScript_qc_fastqc_orig.pbs :fastqcParam :SRR8451905.1_2.fastq.gz .
+
+
+## RawQCLogFile triples
+:RawQCLog_fastqc_raw.o9401591 rdf:type :RawQCLogFile .
+:SRR8293759.1_1.fastq.gz :AnalysisResult :complete .
+:SRR8293759.1_2.fastq.gz :AnalysisResult :complete .
+:SRR8451905.1_1.fastq.gz :AnalysisResult :complete .
+:SRR8451905.1_2.fastq.gz :AnalysisResult :complete .
+:RawQCLog_fastqc_raw.o9401591 :nodes "1" .
+:RawQCLog_fastqc_raw.o9401591 :ppn "28" .
+:RawQCLog_fastqc_raw.o9401591 :cput "01:31:33" .
+:RawQCLog_fastqc_raw.o9401591 :walltime "01:31:17" .
+:RawQCLog_fastqc_raw.o9401591 :mem "0.275GB" .
+:RawQCLog_fastqc_raw.o9401591 :vmem "3.356GB" .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc09.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc09.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc09.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc09.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc09.pbs :fastqcParam :TrimmomaticTrims/Trim09/SRR8293759_paired1_t09 .
+:TrimQCScripts/qc_fastqc09.pbs :fastqcParam :TrimmomaticTrims/Trim09/SRR8293759_paired2_t09 .
+:TrimQCScripts/qc_fastqc09.pbs :fastqcParam :TrimmomaticTrims/Trim09/SRR8451905_paired1_t09 .
+:TrimQCScripts/qc_fastqc09.pbs :fastqcParam :TrimmomaticTrims/Trim09/SRR8451905_paired2_t09 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired8.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired8.pbs :walltime "1:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired8.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired8.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired8.pbs :fastqcParam :TrimmomaticTrims/Trim8/SRR8451905_unpaired1_t8 .
+:TrimQCScripts/qc_fastqc_unpaired8.pbs :fastqcParam :TrimmomaticTrims/Trim8/SRR8451905_unpaired2_t8 .
+:TrimQCScripts/qc_fastqc_unpaired8.pbs :fastqcParam :TrimmomaticTrims/Trim8/SRR8293759_unpaired1_t8 .
+:TrimQCScripts/qc_fastqc_unpaired8.pbs :fastqcParam :TrimmomaticTrims/Trim8/SRR8293759_unpaired2_t8 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc8.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc8.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc8.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc8.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc8.pbs :fastqcParam :TrimmomaticTrims/Trim8/SRR8293759_paired1_t8 .
+:TrimQCScripts/qc_fastqc8.pbs :fastqcParam :TrimmomaticTrims/Trim8/SRR8293759_paired2_t8 .
+:TrimQCScripts/qc_fastqc8.pbs :fastqcParam :TrimmomaticTrims/Trim8/SRR8451905_paired1_t8 .
+:TrimQCScripts/qc_fastqc8.pbs :fastqcParam :TrimmomaticTrims/Trim8/SRR8451905_paired2_t8 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired10.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired10.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired10.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired10.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired10.pbs :fastqcParam :TrimmomaticTrims/Trim10/SRR8451905_unpaired1_t10 .
+:TrimQCScripts/qc_fastqc_unpaired10.pbs :fastqcParam :TrimmomaticTrims/Trim10/SRR8451905_unpaired2_t10 .
+:TrimQCScripts/qc_fastqc_unpaired10.pbs :fastqcParam :TrimmomaticTrims/Trim10/SRR8293759_unpaired1_t10 .
+:TrimQCScripts/qc_fastqc_unpaired10.pbs :fastqcParam :TrimmomaticTrims/Trim10/SRR8293759_unpaired2_t10 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired11.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired11.pbs :walltime "5:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired11.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired11.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired11.pbs :fastqcParam :TrimmomaticTrims/Trim11/SRR8451905_unpaired1_t11 .
+:TrimQCScripts/qc_fastqc_unpaired11.pbs :fastqcParam :TrimmomaticTrims/Trim11/SRR8451905_unpaired2_t11 .
+:TrimQCScripts/qc_fastqc_unpaired11.pbs :fastqcParam :TrimmomaticTrims/Trim11/SRR8293759_unpaired1_t11 .
+:TrimQCScripts/qc_fastqc_unpaired11.pbs :fastqcParam :TrimmomaticTrims/Trim11/SRR8293759_unpaired2_t11 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc2.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc2.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc2.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc2.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc2.pbs :fastqcParam :SRR8293759_paired1_t2 .
+:TrimQCScripts/qc_fastqc2.pbs :fastqcParam :SRR8293759_paired2_t2 .
+:TrimQCScripts/qc_fastqc2.pbs :fastqcParam :SRR8451905_paired1_t2 .
+:TrimQCScripts/qc_fastqc2.pbs :fastqcParam :SRR8451905_paired2_t2 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired.pbs :fastqcParam :SRR8451905_unpaired1 .
+:TrimQCScripts/qc_fastqc_unpaired.pbs :fastqcParam :SRR8451905_unpaired2 .
+:TrimQCScripts/qc_fastqc_unpaired.pbs :fastqcParam :SRR8293759_unpaired1 .
+:TrimQCScripts/qc_fastqc_unpaired.pbs :fastqcParam :SRR8293759_unpaired2 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc3.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc3.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc3.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc3.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc3.pbs :fastqcParam :SRR8293759_paired1_t3 .
+:TrimQCScripts/qc_fastqc3.pbs :fastqcParam :SRR8293759_paired2_t3 .
+:TrimQCScripts/qc_fastqc3.pbs :fastqcParam :SRR8451905_paired1_t3 .
+:TrimQCScripts/qc_fastqc3.pbs :fastqcParam :SRR8451905_paired2_t3 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc7.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc7.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc7.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc7.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc7.pbs :fastqcParam :SRR8293759_paired1_t7 .
+:TrimQCScripts/qc_fastqc7.pbs :fastqcParam :SRR8293759_paired2_t7 .
+:TrimQCScripts/qc_fastqc7.pbs :fastqcParam :SRR8451905_paired1_t7 .
+:TrimQCScripts/qc_fastqc7.pbs :fastqcParam :SRR8451905_paired2_t7 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc6.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc6.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc6.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc6.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc6.pbs :fastqcParam :SRR8293759_paired1_t6 .
+:TrimQCScripts/qc_fastqc6.pbs :fastqcParam :SRR8293759_paired2_t6 .
+:TrimQCScripts/qc_fastqc6.pbs :fastqcParam :SRR8451905_paired1_t6 .
+:TrimQCScripts/qc_fastqc6.pbs :fastqcParam :SRR8451905_paired2_t6 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc4.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc4.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc4.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc4.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc4.pbs :fastqcParam :SRR8293759_paired1_t4 .
+:TrimQCScripts/qc_fastqc4.pbs :fastqcParam :SRR8293759_paired2_t4 .
+:TrimQCScripts/qc_fastqc4.pbs :fastqcParam :SRR8451905_paired1_t4 .
+:TrimQCScripts/qc_fastqc4.pbs :fastqcParam :SRR8451905_paired2_t4 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired09.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired09.pbs :walltime "1:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired09.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired09.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired09.pbs :fastqcParam :TrimmomaticTrims/Trim09/SRR8451905_unpaired1_t09 .
+:TrimQCScripts/qc_fastqc_unpaired09.pbs :fastqcParam :TrimmomaticTrims/Trim09/SRR8451905_unpaired2_t09 .
+:TrimQCScripts/qc_fastqc_unpaired09.pbs :fastqcParam :TrimmomaticTrims/Trim09/SRR8293759_unpaired1_t09 .
+:TrimQCScripts/qc_fastqc_unpaired09.pbs :fastqcParam :TrimmomaticTrims/Trim09/SRR8293759_unpaired2_t09 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc5.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc5.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc5.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc5.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc5.pbs :fastqcParam :SRR8293759_paired1_t5 .
+:TrimQCScripts/qc_fastqc5.pbs :fastqcParam :SRR8293759_paired2_t5 .
+:TrimQCScripts/qc_fastqc5.pbs :fastqcParam :SRR8451905_paired1_t5 .
+:TrimQCScripts/qc_fastqc5.pbs :fastqcParam :SRR8451905_paired2_t5 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired5.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired5.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired5.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired5.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired5.pbs :fastqcParam :SRR8451905_unpaired1_t5 .
+:TrimQCScripts/qc_fastqc_unpaired5.pbs :fastqcParam :SRR8451905_unpaired2_t5 .
+:TrimQCScripts/qc_fastqc_unpaired5.pbs :fastqcParam :SRR8293759_unpaired1_t5 .
+:TrimQCScripts/qc_fastqc_unpaired5.pbs :fastqcParam :SRR8293759_unpaired2_t5 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired4.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired4.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired4.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired4.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired4.pbs :fastqcParam :SRR8451905_unpaired1_t4 .
+:TrimQCScripts/qc_fastqc_unpaired4.pbs :fastqcParam :SRR8451905_unpaired2_t4 .
+:TrimQCScripts/qc_fastqc_unpaired4.pbs :fastqcParam :SRR8293759_unpaired1_t4 .
+:TrimQCScripts/qc_fastqc_unpaired4.pbs :fastqcParam :SRR8293759_unpaired2_t4 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired6.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired6.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired6.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired6.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired6.pbs :fastqcParam :SRR8451905_unpaired1_t6 .
+:TrimQCScripts/qc_fastqc_unpaired6.pbs :fastqcParam :SRR8451905_unpaired2_t6 .
+:TrimQCScripts/qc_fastqc_unpaired6.pbs :fastqcParam :SRR8293759_unpaired1_t6 .
+:TrimQCScripts/qc_fastqc_unpaired6.pbs :fastqcParam :SRR8293759_unpaired2_t6 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired7.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired7.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired7.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired7.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired7.pbs :fastqcParam :SRR8451905_unpaired1_t7 .
+:TrimQCScripts/qc_fastqc_unpaired7.pbs :fastqcParam :SRR8451905_unpaired2_t7 .
+:TrimQCScripts/qc_fastqc_unpaired7.pbs :fastqcParam :SRR8293759_unpaired1_t7 .
+:TrimQCScripts/qc_fastqc_unpaired7.pbs :fastqcParam :SRR8293759_unpaired2_t7 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired3.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired3.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired3.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired3.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired3.pbs :fastqcParam :SRR8451905_unpaired1_t3 .
+:TrimQCScripts/qc_fastqc_unpaired3.pbs :fastqcParam :SRR8451905_unpaired2_t3 .
+:TrimQCScripts/qc_fastqc_unpaired3.pbs :fastqcParam :SRR8293759_unpaired1_t3 .
+:TrimQCScripts/qc_fastqc_unpaired3.pbs :fastqcParam :SRR8293759_unpaired2_t3 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc11.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc11.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc11.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc11.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc11.pbs :fastqcParam :TrimmomaticTrims/Trim11/SRR8293759_paired1_t11 .
+:TrimQCScripts/qc_fastqc11.pbs :fastqcParam :TrimmomaticTrims/Trim11/SRR8293759_paired2_t11 .
+:TrimQCScripts/qc_fastqc11.pbs :fastqcParam :TrimmomaticTrims/Trim11/SRR8451905_paired1_t11 .
+:TrimQCScripts/qc_fastqc11.pbs :fastqcParam :TrimmomaticTrims/Trim11/SRR8451905_paired2_t11 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc10.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc10.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc10.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc10.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc10.pbs :fastqcParam :TrimmomaticTrims/Trim10/SRR8293759_paired1_t10 .
+:TrimQCScripts/qc_fastqc10.pbs :fastqcParam :TrimmomaticTrims/Trim10/SRR8293759_paired2_t10 .
+:TrimQCScripts/qc_fastqc10.pbs :fastqcParam :TrimmomaticTrims/Trim10/SRR8451905_paired1_t10 .
+:TrimQCScripts/qc_fastqc10.pbs :fastqcParam :TrimmomaticTrims/Trim10/SRR8451905_paired2_t10 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc_unpaired2.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc_unpaired2.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc_unpaired2.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc_unpaired2.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc_unpaired2.pbs :fastqcParam :SRR8451905_unpaired1_t2 .
+:TrimQCScripts/qc_fastqc_unpaired2.pbs :fastqcParam :SRR8451905_unpaired2_t2 .
+:TrimQCScripts/qc_fastqc_unpaired2.pbs :fastqcParam :SRR8293759_unpaired1_t2 .
+:TrimQCScripts/qc_fastqc_unpaired2.pbs :fastqcParam :SRR8293759_unpaired2_t2 .
+
+
+## TrimQCScriptFile triples
+:TrimQCScripts/qc_fastqc.pbs rdf:type :TrimQCScriptFile .
+:TrimQCScripts/qc_fastqc.pbs :walltime "10:00:00" .
+:TrimQCScripts/qc_fastqc.pbs :nodes "1" .
+:TrimQCScripts/qc_fastqc.pbs :ppn "28" .
+:TrimQCScripts/qc_fastqc.pbs :fastqcParam :SRR8293759_paired1 .
+:TrimQCScripts/qc_fastqc.pbs :fastqcParam :SRR8293759_paired2 .
+:TrimQCScripts/qc_fastqc.pbs :fastqcParam :SRR8451905_paired1 .
+:TrimQCScripts/qc_fastqc.pbs :fastqcParam :SRR8451905_paired2 .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired.o9401606 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired1 :AnalysisResult :complete .
+:SRR8451905_unpaired2 :AnalysisResult :complete .
+:SRR8293759_unpaired1 :AnalysisResult :complete .
+:SRR8293759_unpaired2 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired.o9401606 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired.o9401606 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired.o9401606 :cput "00:02:23" .
+:TrimQCLogs/fastqc_trim_unpaired.o9401606 :walltime "00:02:14" .
+:TrimQCLogs/fastqc_trim_unpaired.o9401606 :mem "0.176GB" .
+:TrimQCLogs/fastqc_trim_unpaired.o9401606 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim.o9397963 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1 :AnalysisResult :complete .
+:SRR8293759_paired2 :AnalysisResult :complete .
+:SRR8451905_paired1 :AnalysisResult :complete .
+:SRR8451905_paired2 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim.o9397963 :nodes "1" .
+:TrimQCLogs/fastqc_trim.o9397963 :ppn "28" .
+:TrimQCLogs/fastqc_trim.o9397963 :cput "01:07:46" .
+:TrimQCLogs/fastqc_trim.o9397963 :walltime "01:07:32" .
+:TrimQCLogs/fastqc_trim.o9397963 :mem "0.247GB" .
+:TrimQCLogs/fastqc_trim.o9397963 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired_t6.o9409425 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired1_t6 :AnalysisResult :complete .
+:SRR8451905_unpaired2_t6 :AnalysisResult :complete .
+:SRR8293759_unpaired1_t6 :AnalysisResult :complete .
+:SRR8293759_unpaired2_t6 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired_t6.o9409425 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired_t6.o9409425 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired_t6.o9409425 :cput "00:02:21" .
+:TrimQCLogs/fastqc_trim_unpaired_t6.o9409425 :walltime "00:02:10" .
+:TrimQCLogs/fastqc_trim_unpaired_t6.o9409425 :mem "0.201GB" .
+:TrimQCLogs/fastqc_trim_unpaired_t6.o9409425 :vmem "3.360GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim6.o9409403 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t6 :AnalysisResult :complete .
+:SRR8293759_paired2_t6 :AnalysisResult :complete .
+:SRR8451905_paired1_t6 :AnalysisResult :complete .
+:SRR8451905_paired2_t6 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim6.o9409403 :nodes "1" .
+:TrimQCLogs/fastqc_trim6.o9409403 :ppn "28" .
+:TrimQCLogs/fastqc_trim6.o9409403 :cput "01:06:50" .
+:TrimQCLogs/fastqc_trim6.o9409403 :walltime "01:06:33" .
+:TrimQCLogs/fastqc_trim6.o9409403 :mem "0.266GB" .
+:TrimQCLogs/fastqc_trim6.o9409403 :vmem "3.351GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim7.o9409404 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t7 :AnalysisResult :complete .
+:SRR8293759_paired2_t7 :AnalysisResult :complete .
+:SRR8451905_paired1_t7 :AnalysisResult :complete .
+:SRR8451905_paired2_t7 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim7.o9409404 :nodes "1" .
+:TrimQCLogs/fastqc_trim7.o9409404 :ppn "28" .
+:TrimQCLogs/fastqc_trim7.o9409404 :cput "00:34:34" .
+:TrimQCLogs/fastqc_trim7.o9409404 :walltime "00:34:24" .
+:TrimQCLogs/fastqc_trim7.o9409404 :mem "0.235GB" .
+:TrimQCLogs/fastqc_trim7.o9409404 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim09.o9756032 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t09 :AnalysisResult :complete .
+:SRR8293759_paired2_t09 :AnalysisResult :complete .
+:SRR8451905_paired1_t09 :AnalysisResult :complete .
+:SRR8451905_paired2_t09 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim09.o9756032 :nodes "1" .
+:TrimQCLogs/fastqc_trim09.o9756032 :ppn "28" .
+:TrimQCLogs/fastqc_trim09.o9756032 :cput "00:48:37" .
+:TrimQCLogs/fastqc_trim09.o9756032 :walltime "00:48:26" .
+:TrimQCLogs/fastqc_trim09.o9756032 :mem "0.268GB" .
+:TrimQCLogs/fastqc_trim09.o9756032 :vmem "3.356GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim10.o9503178 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t10 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim10.o9503178 :nodes "1" .
+:TrimQCLogs/fastqc_trim10.o9503178 :ppn "28" .
+:TrimQCLogs/fastqc_trim10.o9503178 :cput "00:13:14" .
+:TrimQCLogs/fastqc_trim10.o9503178 :walltime "06:11:58" .
+:TrimQCLogs/fastqc_trim10.o9503178 :mem "0.230GB" .
+:TrimQCLogs/fastqc_trim10.o9503178 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired_t09.o9756036 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired1_t09 :AnalysisResult :complete .
+:SRR8451905_unpaired2_t09 :AnalysisResult :complete .
+:SRR8293759_unpaired1_t09 :AnalysisResult :complete .
+:SRR8293759_unpaired2_t09 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired_t09.o9756036 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired_t09.o9756036 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired_t09.o9756036 :cput "00:06:06" .
+:TrimQCLogs/fastqc_trim_unpaired_t09.o9756036 :walltime "00:06:06" .
+:TrimQCLogs/fastqc_trim_unpaired_t09.o9756036 :mem "0.240GB" .
+:TrimQCLogs/fastqc_trim_unpaired_t09.o9756036 :vmem "3.358GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim4.o9409401 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t4 :AnalysisResult :complete .
+:SRR8293759_paired2_t4 :AnalysisResult :complete .
+:SRR8451905_paired1_t4 :AnalysisResult :complete .
+:SRR8451905_paired2_t4 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim4.o9409401 :nodes "1" .
+:TrimQCLogs/fastqc_trim4.o9409401 :ppn "28" .
+:TrimQCLogs/fastqc_trim4.o9409401 :cput "01:06:01" .
+:TrimQCLogs/fastqc_trim4.o9409401 :walltime "01:05:50" .
+:TrimQCLogs/fastqc_trim4.o9409401 :mem "0.258GB" .
+:TrimQCLogs/fastqc_trim4.o9409401 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim11.o9503179 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t11 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim11.o9503179 :nodes "1" .
+:TrimQCLogs/fastqc_trim11.o9503179 :ppn "28" .
+:TrimQCLogs/fastqc_trim11.o9503179 :cput "00:13:33" .
+:TrimQCLogs/fastqc_trim11.o9503179 :walltime "10:00:54" .
+:TrimQCLogs/fastqc_trim11.o9503179 :mem "0.234GB" .
+:TrimQCLogs/fastqc_trim11.o9503179 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim6.e9409403 rdf:type :TrimQCLogFile .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim2.o9398002 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t2 :AnalysisResult :complete .
+:SRR8293759_paired2_t2 :AnalysisResult :complete .
+:SRR8451905_paired1_t2 :AnalysisResult :complete .
+:SRR8451905_paired2_t2 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim2.o9398002 :nodes "1" .
+:TrimQCLogs/fastqc_trim2.o9398002 :ppn "28" .
+:TrimQCLogs/fastqc_trim2.o9398002 :cput "01:07:29" .
+:TrimQCLogs/fastqc_trim2.o9398002 :walltime "01:07:13" .
+:TrimQCLogs/fastqc_trim2.o9398002 :mem "0.243GB" .
+:TrimQCLogs/fastqc_trim2.o9398002 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim8.o9503176 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t8 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim8.o9503176 :nodes "1" .
+:TrimQCLogs/fastqc_trim8.o9503176 :ppn "28" .
+:TrimQCLogs/fastqc_trim8.o9503176 :cput "00:13:56" .
+:TrimQCLogs/fastqc_trim8.o9503176 :walltime "06:11:50" .
+:TrimQCLogs/fastqc_trim8.o9503176 :mem "0.245GB" .
+:TrimQCLogs/fastqc_trim8.o9503176 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired_t7.o9409426 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired1_t7 :AnalysisResult :complete .
+:SRR8451905_unpaired2_t7 :AnalysisResult :complete .
+:SRR8293759_unpaired1_t7 :AnalysisResult :complete .
+:SRR8293759_unpaired2_t7 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired_t7.o9409426 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired_t7.o9409426 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired_t7.o9409426 :cput "00:08:40" .
+:TrimQCLogs/fastqc_trim_unpaired_t7.o9409426 :walltime "00:08:28" .
+:TrimQCLogs/fastqc_trim_unpaired_t7.o9409426 :mem "0.212GB" .
+:TrimQCLogs/fastqc_trim_unpaired_t7.o9409426 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired_t8.o9756035 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired1_t8 :AnalysisResult :complete .
+:SRR8451905_unpaired2_t8 :AnalysisResult :complete .
+:SRR8293759_unpaired1_t8 :AnalysisResult :complete .
+:SRR8293759_unpaired2_t8 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired_t8.o9756035 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired_t8.o9756035 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired_t8.o9756035 :cput "00:00:44" .
+:TrimQCLogs/fastqc_trim_unpaired_t8.o9756035 :walltime "00:00:38" .
+:TrimQCLogs/fastqc_trim_unpaired_t8.o9756035 :mem "0.011GB" .
+:TrimQCLogs/fastqc_trim_unpaired_t8.o9756035 :vmem "0.388GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired_t3.o9404068 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired1_t3 :AnalysisResult :complete .
+:SRR8451905_unpaired2_t3 :AnalysisResult :complete .
+:SRR8293759_unpaired1_t3 :AnalysisResult :complete .
+:SRR8293759_unpaired2_t3 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired_t3.o9404068 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired_t3.o9404068 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired_t3.o9404068 :cput "00:03:01" .
+:TrimQCLogs/fastqc_trim_unpaired_t3.o9404068 :walltime "00:02:53" .
+:TrimQCLogs/fastqc_trim_unpaired_t3.o9404068 :mem "0.181GB" .
+:TrimQCLogs/fastqc_trim_unpaired_t3.o9404068 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired_t2.o9401607 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired1_t2 :AnalysisResult :complete .
+:SRR8451905_unpaired2_t2 :AnalysisResult :complete .
+:SRR8293759_unpaired1_t2 :AnalysisResult :complete .
+:SRR8293759_unpaired2_t2 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired_t2.o9401607 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired_t2.o9401607 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired_t2.o9401607 :cput "00:02:24" .
+:TrimQCLogs/fastqc_trim_unpaired_t2.o9401607 :walltime "00:02:12" .
+:TrimQCLogs/fastqc_trim_unpaired_t2.o9401607 :mem "0.172GB" .
+:TrimQCLogs/fastqc_trim_unpaired_t2.o9401607 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim5.o9409402 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t5 :AnalysisResult :complete .
+:SRR8293759_paired2_t5 :AnalysisResult :complete .
+:SRR8451905_paired1_t5 :AnalysisResult :complete .
+:SRR8451905_paired2_t5 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim5.o9409402 :nodes "1" .
+:TrimQCLogs/fastqc_trim5.o9409402 :ppn "28" .
+:TrimQCLogs/fastqc_trim5.o9409402 :cput "00:34:33" .
+:TrimQCLogs/fastqc_trim5.o9409402 :walltime "00:34:20" .
+:TrimQCLogs/fastqc_trim5.o9409402 :mem "0.276GB" .
+:TrimQCLogs/fastqc_trim5.o9409402 :vmem "3.360GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired_t5.o9409424 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired1_t5 :AnalysisResult :complete .
+:SRR8451905_unpaired2_t5 :AnalysisResult :complete .
+:SRR8293759_unpaired1_t5 :AnalysisResult :complete .
+:SRR8293759_unpaired2_t5 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired_t5.o9409424 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired_t5.o9409424 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired_t5.o9409424 :cput "00:08:39" .
+:TrimQCLogs/fastqc_trim_unpaired_t5.o9409424 :walltime "00:08:27" .
+:TrimQCLogs/fastqc_trim_unpaired_t5.o9409424 :mem "0.212GB" .
+:TrimQCLogs/fastqc_trim_unpaired_t5.o9409424 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired_t4.o9409423 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired1_t4 :AnalysisResult :complete .
+:SRR8451905_unpaired2_t4 :AnalysisResult :complete .
+:SRR8293759_unpaired1_t4 :AnalysisResult :complete .
+:SRR8293759_unpaired2_t4 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired_t4.o9409423 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired_t4.o9409423 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired_t4.o9409423 :cput "00:02:28" .
+:TrimQCLogs/fastqc_trim_unpaired_t4.o9409423 :walltime "00:02:21" .
+:TrimQCLogs/fastqc_trim_unpaired_t4.o9409423 :mem "0.212GB" .
+:TrimQCLogs/fastqc_trim_unpaired_t4.o9409423 :vmem "3.358GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired_t11.o9756038 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired1_t11 :AnalysisResult :complete .
+:SRR8451905_unpaired2_t11 :AnalysisResult :complete .
+:SRR8293759_unpaired1_t11 :AnalysisResult :complete .
+:SRR8293759_unpaired2_t11 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired_t11.o9756038 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired_t11.o9756038 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired_t11.o9756038 :cput "00:02:22" .
+:TrimQCLogs/fastqc_trim_unpaired_t11.o9756038 :walltime "00:02:20" .
+:TrimQCLogs/fastqc_trim_unpaired_t11.o9756038 :mem "0.176GB" .
+:TrimQCLogs/fastqc_trim_unpaired_t11.o9756038 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim10.o9756033 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t10 :AnalysisResult :complete .
+:SRR8293759_paired2_t10 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim10.o9756033 :nodes "1" .
+:TrimQCLogs/fastqc_trim10.o9756033 :ppn "28" .
+:TrimQCLogs/fastqc_trim10.o9756033 :cput "01:03:20" .
+:TrimQCLogs/fastqc_trim10.o9756033 :walltime "01:03:10" .
+:TrimQCLogs/fastqc_trim10.o9756033 :mem "0.237GB" .
+:TrimQCLogs/fastqc_trim10.o9756033 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim11.o9756034 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t11 :AnalysisResult :complete .
+:SRR8293759_paired2_t11 :AnalysisResult :complete .
+:SRR8451905_paired1_t11 :AnalysisResult :complete .
+:SRR8451905_paired2_t11 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim11.o9756034 :nodes "1" .
+:TrimQCLogs/fastqc_trim11.o9756034 :ppn "28" .
+:TrimQCLogs/fastqc_trim11.o9756034 :cput "01:07:53" .
+:TrimQCLogs/fastqc_trim11.o9756034 :walltime "01:07:41" .
+:TrimQCLogs/fastqc_trim11.o9756034 :mem "0.246GB" .
+:TrimQCLogs/fastqc_trim11.o9756034 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim_unpaired_t10.o9756037 rdf:type :TrimQCLogFile .
+:SRR8451905_unpaired2_t10 :AnalysisResult :complete .
+:SRR8293759_unpaired1_t10 :AnalysisResult :complete .
+:SRR8293759_unpaired2_t10 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim_unpaired_t10.o9756037 :nodes "1" .
+:TrimQCLogs/fastqc_trim_unpaired_t10.o9756037 :ppn "28" .
+:TrimQCLogs/fastqc_trim_unpaired_t10.o9756037 :cput "00:02:10" .
+:TrimQCLogs/fastqc_trim_unpaired_t10.o9756037 :walltime "00:02:04" .
+:TrimQCLogs/fastqc_trim_unpaired_t10.o9756037 :mem "0.178GB" .
+:TrimQCLogs/fastqc_trim_unpaired_t10.o9756037 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim3.o9404065 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t3 :AnalysisResult :complete .
+:SRR8293759_paired2_t3 :AnalysisResult :complete .
+:SRR8451905_paired1_t3 :AnalysisResult :complete .
+:SRR8451905_paired2_t3 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim3.o9404065 :nodes "1" .
+:TrimQCLogs/fastqc_trim3.o9404065 :ppn "28" .
+:TrimQCLogs/fastqc_trim3.o9404065 :cput "01:06:15" .
+:TrimQCLogs/fastqc_trim3.o9404065 :walltime "01:06:18" .
+:TrimQCLogs/fastqc_trim3.o9404065 :mem "0.243GB" .
+:TrimQCLogs/fastqc_trim3.o9404065 :vmem "3.273GB" .
+
+
+## TrimQCLogFile triples
+:TrimQCLogs/fastqc_trim8.o9756031 rdf:type :TrimQCLogFile .
+:SRR8293759_paired1_t8 :AnalysisResult :complete .
+:SRR8293759_paired2_t8 :AnalysisResult :complete .
+:SRR8451905_paired1_t8 :AnalysisResult :complete .
+:SRR8451905_paired2_t8 :AnalysisResult :complete .
+:TrimQCLogs/fastqc_trim8.o9756031 :nodes "1" .
+:TrimQCLogs/fastqc_trim8.o9756031 :ppn "28" .
+:TrimQCLogs/fastqc_trim8.o9756031 :cput "01:08:23" .
+:TrimQCLogs/fastqc_trim8.o9756031 :walltime "01:08:15" .
+:TrimQCLogs/fastqc_trim8.o9756031 :mem "0.300GB" .
+:TrimQCLogs/fastqc_trim8.o9756031 :vmem "3.356GB" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim1.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim1.pbs :walltime "10:00:00" .
+:TrimScripts/trim1.pbs :nodes "1" .
+:TrimScripts/trim1.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim09.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim09.pbs :walltime "10:00:00" .
+:TrimScripts/trim09.pbs :nodes "1" .
+:TrimScripts/trim09.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim2.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim2.pbs :walltime "10:00:00" .
+:TrimScripts/trim2.pbs :nodes "1" .
+:TrimScripts/trim2.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim3.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim3.pbs :walltime "10:00:00" .
+:TrimScripts/trim3.pbs :nodes "1" .
+:TrimScripts/trim3.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim7.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim7.pbs :walltime "10:00:00" .
+:TrimScripts/trim7.pbs :nodes "1" .
+:TrimScripts/trim7.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim6.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim6.pbs :walltime "10:00:00" .
+:TrimScripts/trim6.pbs :nodes "1" .
+:TrimScripts/trim6.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim4.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim4.pbs :walltime "10:00:00" .
+:TrimScripts/trim4.pbs :nodes "1" .
+:TrimScripts/trim4.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim5.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim5.pbs :walltime "10:00:00" .
+:TrimScripts/trim5.pbs :nodes "1" .
+:TrimScripts/trim5.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim8.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim8.pbs :walltime "10:00:00" .
+:TrimScripts/trim8.pbs :nodes "1" .
+:TrimScripts/trim8.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim9.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim9.pbs :walltime "10:00:00" .
+:TrimScripts/trim9.pbs :nodes "2" .
+:TrimScripts/trim9.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim10.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim10.pbs :walltime "10:00:00" .
+:TrimScripts/trim10.pbs :nodes "1" .
+:TrimScripts/trim10.pbs :ppn "28" .
+
+
+## TrimScriptFile triples
+:TrimScripts/trim11.pbs rdf:type :TrimScriptFile .
+:TrimScripts/trim11.pbs :walltime "10:00:00" .
+:TrimScripts/trim11.pbs :nodes "4" .
+:TrimScripts/trim11.pbs :ppn "28" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run1.o9335130 rdf:type :TrimLogFile .
+:TrimLogs/trim_run1.o9335130 :nodes "1" .
+:TrimLogs/trim_run1.o9335130 :ppn "28" .
+:TrimLogs/trim_run1.o9335130 :cput "00:54:12" .
+:TrimLogs/trim_run1.o9335130 :walltime "00:52:22" .
+:TrimLogs/trim_run1.o9335130 :mem "0.686GB" .
+:TrimLogs/trim_run1.o9335130 :vmem "35.993GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run2.o9390919 rdf:type :TrimLogFile .
+:TrimLogs/trim_run2.o9390919 :nodes "1" .
+:TrimLogs/trim_run2.o9390919 :ppn "28" .
+:TrimLogs/trim_run2.o9390919 :cput "08:54:17" .
+:TrimLogs/trim_run2.o9390919 :walltime "08:30:05" .
+:TrimLogs/trim_run2.o9390919 :mem "0.631GB" .
+:TrimLogs/trim_run2.o9390919 :vmem "35.993GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run8.o9474516 rdf:type :TrimLogFile .
+:TrimLogs/trim_run8.o9474516 :nodes "1" .
+:TrimLogs/trim_run8.o9474516 :ppn "28" .
+:TrimLogs/trim_run8.o9474516 :cput "09:08:34" .
+:TrimLogs/trim_run8.o9474516 :walltime "08:49:04" .
+:TrimLogs/trim_run8.o9474516 :mem "0.641GB" .
+:TrimLogs/trim_run8.o9474516 :vmem "35.993GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run10.o9474520 rdf:type :TrimLogFile .
+:TrimLogs/trim_run10.o9474520 :nodes "1" .
+:TrimLogs/trim_run10.o9474520 :ppn "28" .
+:TrimLogs/trim_run10.o9474520 :cput "10:23:06" .
+:TrimLogs/trim_run10.o9474520 :walltime "10:00:01" .
+:TrimLogs/trim_run10.o9474520 :mem "0.642GB" .
+:TrimLogs/trim_run10.o9474520 :vmem "35.993GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run6.o9404318 rdf:type :TrimLogFile .
+:TrimLogs/trim_run6.o9404318 :nodes "1" .
+:TrimLogs/trim_run6.o9404318 :ppn "28" .
+:TrimLogs/trim_run6.o9404318 :cput "08:59:54" .
+:TrimLogs/trim_run6.o9404318 :walltime "08:35:55" .
+:TrimLogs/trim_run6.o9404318 :mem "0.652GB" .
+:TrimLogs/trim_run6.o9404318 :vmem "35.993GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run7.o9404320 rdf:type :TrimLogFile .
+:TrimLogs/trim_run7.o9404320 :nodes "1" .
+:TrimLogs/trim_run7.o9404320 :ppn "28" .
+:TrimLogs/trim_run7.o9404320 :cput "09:05:45" .
+:TrimLogs/trim_run7.o9404320 :walltime "08:41:57" .
+:TrimLogs/trim_run7.o9404320 :mem "0.672GB" .
+:TrimLogs/trim_run7.o9404320 :vmem "35.993GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run11.o9474521 rdf:type :TrimLogFile .
+:TrimLogs/trim_run11.o9474521 :nodes "4" .
+:TrimLogs/trim_run11.o9474521 :ppn "28" .
+:TrimLogs/trim_run11.o9474521 :cput "08:28:37" .
+:TrimLogs/trim_run11.o9474521 :walltime "08:09:57" .
+:TrimLogs/trim_run11.o9474521 :mem "0.630GB" .
+:TrimLogs/trim_run11.o9474521 :vmem "36.046GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run09.o9484579 rdf:type :TrimLogFile .
+:TrimLogs/trim_run09.o9484579 :nodes "1" .
+:TrimLogs/trim_run09.o9484579 :ppn "28" .
+:TrimLogs/trim_run09.o9484579 :cput "09:09:42" .
+:TrimLogs/trim_run09.o9484579 :walltime "08:46:38" .
+:TrimLogs/trim_run09.o9484579 :mem "0.737GB" .
+:TrimLogs/trim_run09.o9484579 :vmem "35.993GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run10.o9782272 rdf:type :TrimLogFile .
+:TrimLogs/trim_run10.o9782272 :nodes "1" .
+:TrimLogs/trim_run10.o9782272 :ppn "28" .
+:TrimLogs/trim_run10.o9782272 :cput "05:24:51" .
+:TrimLogs/trim_run10.o9782272 :walltime "05:10:31" .
+:TrimLogs/trim_run10.o9782272 :mem "0.632GB" .
+:TrimLogs/trim_run10.o9782272 :vmem "35.993GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run3.o9395708 rdf:type :TrimLogFile .
+:TrimLogs/trim_run3.o9395708 :nodes "1" .
+:TrimLogs/trim_run3.o9395708 :ppn "28" .
+:TrimLogs/trim_run3.o9395708 :cput "08:55:16" .
+:TrimLogs/trim_run3.o9395708 :walltime "08:30:55" .
+:TrimLogs/trim_run3.o9395708 :mem "0.641GB" .
+:TrimLogs/trim_run3.o9395708 :vmem "35.993GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run5.o9404317 rdf:type :TrimLogFile .
+:TrimLogs/trim_run5.o9404317 :nodes "1" .
+:TrimLogs/trim_run5.o9404317 :ppn "28" .
+:TrimLogs/trim_run5.o9404317 :cput "08:58:26" .
+:TrimLogs/trim_run5.o9404317 :walltime "08:34:25" .
+:TrimLogs/trim_run5.o9404317 :mem "0.632GB" .
+:TrimLogs/trim_run5.o9404317 :vmem "35.993GB" .
+
+
+## TrimLogFile triples
+:TrimLogs/trim_run4.o9404316 rdf:type :TrimLogFile .
+:TrimLogs/trim_run4.o9404316 :nodes "1" .
+:TrimLogs/trim_run4.o9404316 :ppn "28" .
+:TrimLogs/trim_run4.o9404316 :cput "09:33:40" .
+:TrimLogs/trim_run4.o9404316 :walltime "09:08:16" .
+:TrimLogs/trim_run4.o9404316 :mem "0.657GB" .
+:TrimLogs/trim_run4.o9404316 :vmem "35.993GB" .
+
+
