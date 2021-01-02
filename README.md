@@ -5,17 +5,17 @@ Genome sequencing is a process of identifying the order of bases - adenine (A), 
     
 ## Generating knowledge triples
 
-`python3 scriptsAndLogsParser.py`
-This will generate the triples file (scriptsLogs.ttl)
+- `python3 scriptsAndLogsParser.py`
+- This will generate the triples file (scriptsLogs.ttl)
 
 ## Loading triples and querying them (instructions are for MacOS)
 
-1. Install and configure stardog (https://www.stardog.com/docs)
-    i. `wget https://downloads.stardog.com/stardog/stardog-latest.zip && unzip stardog-latest.zip`
-    ii. `mv -R stardog-<version> /opt/`
-    iii. put these in .bashrc
+- Install and configure stardog (https://www.stardog.com/docs)
+    - `wget https://downloads.stardog.com/stardog/stardog-latest.zip && unzip stardog-latest.zip`
+    - `mv -R stardog-<version> /opt/`
+    - put these in .bashrc
         - `export STARDOG_HOME="/var/stardog"`
         - `export PATH="$PATH:/opt/stardog-7.4.4/bin"`
-2. Start stardog: `stardog-admin server start`
-3. Download stardog studio (https://www.stardog.com/studio/)
-4. Load database (ttl file created above) into stardog and run queries over it. 
+- Start stardog: `stardog-admin server start`
+- Download stardog studio (https://www.stardog.com/studio/)
+- Load database (ttl file created above) into stardog and run queries over it. 
