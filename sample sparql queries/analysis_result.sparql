@@ -1,0 +1,7 @@
+PREFIX : <http://example.org/>
+
+CONSTRUCT
+WHERE {
+    ?file :fastqcParam ?param .
+    ?param :AnalysisResult ?result .
+}

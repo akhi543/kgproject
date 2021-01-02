@@ -5,17 +5,17 @@ Running instructions:
     
 # Generating knowledge triples
 
-python3 scriptsAndLogsParser.py
-    This will generate the triples file (scriptsLogs.ttl)
+`python3 scriptsAndLogsParser.py`
+This will generate the triples file (scriptsLogs.ttl)
 
-# Loading triples and querying them
+# Loading triples and querying them (instructions are for MacOS)
 
 1. Install and configure stardog (https://www.stardog.com/docs)
-    a. wget https://downloads.stardog.com/stardog/stardog-latest.zip && unzip stardog-latest.zip
-    b. mv -R stardog-<version> /opt/
-    c. put these in .bashrc
-        export STARDOG_HOME="/var/stardog" 
-        export PATH="$PATH:/opt/stardog-7.4.4/bin"
+    i. `wget https://downloads.stardog.com/stardog/stardog-latest.zip && unzip stardog-latest.zip`
+    ii. `mv -R stardog-<version> /opt/`
+    iii. put these in .bashrc
+        - `export STARDOG_HOME="/var/stardog"`
+        - `export PATH="$PATH:/opt/stardog-7.4.4/bin"`
 2. Start stardog: `stardog-admin server start`
 3. Download stardog studio (https://www.stardog.com/studio/)
 4. Load database (ttl file created above) into stardog and run queries over it. 
